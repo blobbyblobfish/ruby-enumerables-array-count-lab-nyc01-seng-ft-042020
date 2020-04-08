@@ -22,7 +22,11 @@ def count_empty_strings(array)
   index = 0 
   
  while index < array.length do
+<<<<<<< HEAD
     if array[index].is_a?(String) && array[index].empty?
+=======
+    if array[index].empty?
+>>>>>>> 057b17752dc2113d05ff23e749d496fe14be069f
       total += 1 
     end
     index += 1
